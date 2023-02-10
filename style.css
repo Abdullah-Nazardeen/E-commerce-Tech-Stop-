@@ -1,0 +1,339 @@
+/* header */
+header {
+    height: 19%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4) ;
+
+}
+.name {
+    height: 55%;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-name {
+    font-family: 'Dancing Script', cursive;
+}
+.icons {
+    background: linear-gradient(to bottom, aliceblue,  white);
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+.fa-bars, .fa-cart-plus, .fa-bell-concierge, .fa-comment {
+    color: black;
+    transition: all 0.2s ease-in 0s ;
+}
+.fa-comment:hover {
+    color: rgb(216, 112, 112);
+}
+.fa-bars:hover {
+    color: rgb(216, 112, 112);
+}
+.fa-cart-plus:hover {
+    color: rgb(216, 112, 112);
+}
+.fa-bell-concierge:hover {
+    color: rgb(216, 112, 112);
+}
+
+.cart {
+    margin-left: 17%;
+}
+.fa-cart-plus {
+    font-size: 1.5em;
+}
+
+.active.pop-up-menu {
+    visibility: visible;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:baseline;
+    background-image: url("C:/Users/User/Desktop/abdullah/Web devolopment/E-Commerce WebSite/Images/menu-back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.39) ;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+.menu-el {
+    margin-left: 4%; 
+    margin-right: 18%;
+}
+.menu-products {
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+    font-size: 1em;
+    font-weight: 400;
+    width: 100%;
+}
+.menu-help {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+.menu-help-1 {
+    margin: 1% 0 3% 8%;
+}
+.menu-help-2 {
+    margin: 1% 0 3% 17%;
+}
+form {
+    margin: 0;
+    padding: 0%;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 8px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+#search-el {
+    border: 0;
+    outline: 0;
+    font-size: 1em;
+    width: 95%;
+}
+.fa-magnifying-glass {
+    padding: 1%;
+}
+.menu-list {
+    margin: 0 0 15px 0;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    gap: 0.6rem;
+    font-size: 1em;
+}
+.pop-up-menu {
+     display: none;
+} 
+.menuitems {
+    color: goldenrod;
+}
+.itemName:hover {
+    color: red; 
+    font-size: 1.1em;
+}
+/* slider */
+.blank {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 75px;
+}
+ .slider {
+    width: 100%;
+    margin: 0;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+.slider2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 54vh;
+} 
+/* .backward {
+    margin-right: 45%;
+}
+.forward {
+    margin-left: 45%;
+}
+.slider-img {
+    width: 90%;
+} */
+.material-symbols-outlined {
+    padding: 0%;
+    color: white;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+    
+  }
+
+/* slider */
+/* section */
+body {
+    margin: 0%;
+    background-color: white;
+}
+section {
+    margin: 0;
+    padding-top: 4%;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 21.5%;
+    height: 60%;
+    border: 0.1cm solid rgba(95, 83, 83, 0.452);
+    margin: 1%;
+    padding: 0 0 0 0;
+    transition: all 0.2s linear 0s ;
+}
+.product1 {
+    width: 100%;
+    height: 80%;
+}
+.product:hover {
+    width: 22%;
+    border: none;
+}
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    box-sizing:border-box;
+    overflow: hidden;
+
+}
+.arr-btn {
+    display: flex;
+    margin: 0%;
+    align-items: center;
+    overflow: hidden;
+}
+.info {
+    padding-top:10px ;
+}
+.add {
+    transition: all 0.3s ease-in-out 0s;
+}
+.add:hover {
+    background-color: rgba(255, 0, 0, 0.55); 
+    font-weight: 700;
+}
+.product-type {
+    display: flex;
+    margin: 10px 0 0 0;
+    padding: 2px;
+    align-items:center;
+    justify-content:center;
+    background-color: aliceblue;
+    color: goldenrod;
+    font-size: 1.5em;
+    font-weight: 700;    
+}
+.material-symbols-outlined {
+  color: goldenrod;
+  padding: 0;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.right1,.right2,.right3,.right4 {
+    padding: 0 2% 0 0;
+} 
+.left1,.left2,.left3,.left4 {
+    padding: 0 0 0 2%;
+}
+
+
+/* footer */
+/* footer {
+    background: rgb(0, 0, 0) ;
+    height: 20%;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    flex: 1;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+}
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 0 2% 0;
+}
+.fa-phone-volume,.fa-brands,.fa-envelope {
+    color: white;
+}  */
+footer {
+    background-color: aliceblue;
+    height: 20%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    flex: 1;
+    box-shadow: 0 0 10px black;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 0 2% 0;
+}
+.fa-phone-volume,.fa-brands,.fa-envelope {
+    color: rgb(0, 0, 0);
+} 
+
+/* animation */
+@media (max-width: 979px) {
+    .blank {
+        height: 110px;
+    }
+    .slider {
+        height: 45%;
+
+  }
+  /* .product {
+    height: 35%;
+    width: 18%;
+  } */
+  .row-1 {
+    height: 55vh;
+  }
+}
+
+/* phone
