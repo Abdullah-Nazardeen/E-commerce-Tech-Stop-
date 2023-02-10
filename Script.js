@@ -114,10 +114,10 @@ function renderSlide(productImg,productEl,productInfo) {
         numberProduct2 = 1
         numberProduct3 = 2
         numberProduct4 = 3
-        // productEl.innerHTML +=`<figure class="product">
-        //       <img class="product1" src="${productImg[numberProduct1]}" width>
-        //       <figcaption class="info">${productInfo[numberProduct1]}<i><button class="add"> + CART </button></i></figcaption>
-        //    </figure>`
+        productEl.innerHTML =`<figure class="product">
+              <img class="product1" src="${productImg[numberProduct1]}" width>
+              <figcaption class="info">${productInfo[numberProduct1]}<i><button class="add"> + CART </button></i></figcaption>
+           </figure>`
         productEl.innerHTML +=`<figure class="product">
               <img class="product1" src="${productImg[numberProduct2]}" width>
               <figcaption class="info">${productInfo[numberProduct2]}<i><button class="add"> + CART </button></i></figcaption>
