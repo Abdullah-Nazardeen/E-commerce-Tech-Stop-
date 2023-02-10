@@ -25,7 +25,7 @@ let earbudsImg = [
     "Images/ear5.jpg",
     "Images/ear6.jpg",
     "Images/ear7.jpg",
-    "Images/ear8.jpg"
+    "Images/ear-1.jpg"
 ]
 let laptopsImg = [
     "Images/lap-1.jpg",
