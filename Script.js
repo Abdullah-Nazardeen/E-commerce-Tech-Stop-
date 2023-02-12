@@ -18,7 +18,7 @@ let sliderImg = [
 ]
 
 let earbudsImg = [
-    "images/ear8.jpg",
+    "Images/ear8.jpg",
     "Images/ear2.jpg",
     "Images/ear3.jpg",
     "Images/ear4.jpg",
