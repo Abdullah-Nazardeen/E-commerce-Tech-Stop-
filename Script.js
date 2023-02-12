@@ -188,7 +188,7 @@ function renderSlide(productImg,productEl,productInfo) {
   }
 
   function renderLeft(productImg,productEl,productInfo) {
-    if ( numberProduct1 >3 && numberProduct2 >3 && numberProduct3 >3 && numberProduct4) {
+    if ( numberProduct1 >3 && numberProduct2 >3 && numberProduct3 >3 && numberProduct4>3) {
         numberProduct1 += -1
         numberProduct2 += -1
         numberProduct3 += -1
