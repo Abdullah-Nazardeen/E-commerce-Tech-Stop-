@@ -132,11 +132,7 @@ function renderSlide(productImg,productEl,productInfo) {
            </figure>`
 }
   function renderRight(productImg,productEl,productInfo) {
-    if ( numberProduct1 < 4, numberProduct2 < 5, numberProduct3 < 6, numberProduct4 < 7) {
-                console.log(numberProduct1)
-         console.log(numberProduct2)
-                console.log(numberProduct3)
-                console.log(numberProduct4)
+    if ( numberProduct1 , numberProduct2 , numberProduct3 , numberProduct4 < 7) {
         numberProduct1 += 1
         numberProduct2 += 1
         numberProduct3 += 1
@@ -168,10 +164,6 @@ function renderSlide(productImg,productEl,productInfo) {
         numberProduct2 = 1
         numberProduct3 = 2
         numberProduct4 = 3
-                console.log(numberProduct1)
-         console.log(numberProduct2)
-                console.log(numberProduct3)
-                console.log(numberProduct4)
         productEl.innerHTML = `<figure class="product">
               <img class="product1" src="${productImg[numberProduct1]}" width>
               <figcaption class="info">${productInfo[numberProduct1]}<i><button class="add"> + CART </button></i></figcaption>
@@ -192,15 +184,11 @@ function renderSlide(productImg,productEl,productInfo) {
   }
 
   function renderLeft(productImg,productEl,productInfo) {
-    if ( numberProduct1 >= 0 && numberProduct2 >= 0 && numberProduct3 >= 0 && numberProduct4 >= 0) {
+    if ( numberProduct1, numberProduct2 , numberProduct3 , numberProduct4 > 3) {
         numberProduct1 += -1
         numberProduct2 += -1
         numberProduct3 += -1
         numberProduct4 += -1
-                console.log(numberProduct1)
-         console.log(numberProduct2)
-                console.log(numberProduct3)
-                console.log(numberProduct4)
         productEl.innerHTML = `<figure class="product">
               <img class="product1" src="${productImg[numberProduct1]}" width alt=numberProduct1>
               <figcaption class="info">${productInfo[numberProduct1]}<i><button class="add"> + CART </button></i></figcaption>
@@ -223,10 +211,6 @@ function renderSlide(productImg,productEl,productInfo) {
         numberProduct2 = 5
         numberProduct3 = 6
         numberProduct4 = 7
-                console.log(numberProduct1)
-         console.log(numberProduct2)
-                console.log(numberProduct3)
-                console.log(numberProduct4)
         productEl.innerHTML = `<figure class="product">
               <img class="product1" src="${productImg[numberProduct1]}" width>
               <figcaption class="info">${productInfo[numberProduct1]}<i><button class="add"> + CART </button></i></figcaption>
@@ -285,16 +269,13 @@ function renderSlide(productImg,productEl,productInfo) {
     if ( stat === "Dactive") {
       stat = "active"
       popUpMenu.classList.add("active")
-      console.log("hi")
     }
     else if (stat === "active") {
       stat = "Dactive"
       popUpMenu.classList.remove("active")
-      console.log("yp")
     }
   
   })
 popUpMenu.addEventListener("scroll", function() {
   popUpMenu.classList.remove("active")
-  console,log("woah")
 })
