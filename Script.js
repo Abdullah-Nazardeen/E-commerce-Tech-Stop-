@@ -137,6 +137,11 @@ function renderSlide(productImg,productEl,productInfo) {
         numberProduct2 += 1
         numberProduct3 += 1
         numberProduct4 += 1
+        console.log(numberProduct1)
+         console.log(numberProduct2)
+                console.log(numberProduct3)
+                console.log(numberProduct4)
+
         productEl.innerHTML = `<figure class="product">
               <img class="product1" src="${productImg[numberProduct1]}" width>
               <figcaption class="info">${productInfo[numberProduct1]}<i><button class="add"> + CART </button></i></figcaption>
@@ -159,6 +164,10 @@ function renderSlide(productImg,productEl,productInfo) {
         numberProduct2 = 1
         numberProduct3 = 2
         numberProduct4 = 3
+                console.log(numberProduct1)
+         console.log(numberProduct2)
+                console.log(numberProduct3)
+                console.log(numberProduct4)
         productEl.innerHTML = `<figure class="product">
               <img class="product1" src="${productImg[numberProduct1]}" width>
               <figcaption class="info">${productInfo[numberProduct1]}<i><button class="add"> + CART </button></i></figcaption>
@@ -184,6 +193,10 @@ function renderSlide(productImg,productEl,productInfo) {
         numberProduct2 += -1
         numberProduct3 += -1
         numberProduct4 += -1
+                console.log(numberProduct1)
+         console.log(numberProduct2)
+                console.log(numberProduct3)
+                console.log(numberProduct4)
         productEl.innerHTML = `<figure class="product">
               <img class="product1" src="${productImg[numberProduct1]}" width alt=numberProduct1>
               <figcaption class="info">${productInfo[numberProduct1]}<i><button class="add"> + CART </button></i></figcaption>
@@ -206,6 +219,10 @@ function renderSlide(productImg,productEl,productInfo) {
         numberProduct2 = 5
         numberProduct3 = 6
         numberProduct4 = 7
+                console.log(numberProduct1)
+         console.log(numberProduct2)
+                console.log(numberProduct3)
+                console.log(numberProduct4)
         productEl.innerHTML = `<figure class="product">
               <img class="product1" src="${productImg[numberProduct1]}" width>
               <figcaption class="info">${productInfo[numberProduct1]}<i><button class="add"> + CART </button></i></figcaption>
