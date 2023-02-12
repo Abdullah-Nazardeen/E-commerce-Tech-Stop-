@@ -132,7 +132,7 @@ function renderSlide(productImg,productEl,productInfo) {
            </figure>`
 }
   function renderRight(productImg,productEl,productInfo) {
-    if ( numberProduct1, numberProduct2, numberProduct3, numberProduct4 < 7) {
+    if ( numberProduct1 < 4, numberProduct2 < 5, numberProduct3 < 6, numberProduct4 < 7) {
                 console.log(numberProduct1)
          console.log(numberProduct2)
                 console.log(numberProduct3)
@@ -192,7 +192,7 @@ function renderSlide(productImg,productEl,productInfo) {
   }
 
   function renderLeft(productImg,productEl,productInfo) {
-    if ( numberProduct1 >3 && numberProduct2 >3 && numberProduct3 >3 && numberProduct4>3) {
+    if ( numberProduct1 >= 0 && numberProduct2 >= 0 && numberProduct3 >= 0 && numberProduct4 >= 0) {
         numberProduct1 += -1
         numberProduct2 += -1
         numberProduct3 += -1
