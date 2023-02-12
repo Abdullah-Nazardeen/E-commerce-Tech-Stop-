@@ -185,19 +185,19 @@ function renderSlide(productImg,productEl,productInfo) {
         numberProduct3 += -1
         numberProduct4 += -1
         productEl.innerHTML = `<figure class="product">
-              <img class="product1" src="${productImg[numberProduct1]}" width>
+              <img class="product1" src="${productImg[numberProduct1]}" width alt=numberProduct1>
               <figcaption class="info">${productInfo[numberProduct1]}<i><button class="add"> + CART </button></i></figcaption>
           </figure>`
         productEl.innerHTML +=`<figure class="product">
-              <img class="product1" src="${productImg[numberProduct2]}" width>
+              <img class="product1" src="${productImg[numberProduct2]}" width alt=numberProduct2>
               <figcaption class="info">${productInfo[numberProduct2]}<i><button class="add"> + CART </button></i></figcaption>
            </figure>`
            productEl.innerHTML += `<figure class="product">
-           <img class="product1" src="${productImg[numberProduct3]}" width>
+           <img class="product1" src="${productImg[numberProduct3]}" width alt=numberProduct3>
            <figcaption class="info">${productInfo[numberProduct3]}<i><button class="add"> + CART </button></i></figcaption>
         </figure>`
         productEl.innerHTML += `<figure class="product">
-              <img class="product1" src="${productImg[numberProduct4]}" width>
+              <img class="product1" src="${productImg[numberProduct4]}" width alt=numberProduct4>
               <figcaption class="info">${productInfo[numberProduct4]}<i><button class="add"> + CART </button></i></figcaption>
            </figure>`
     }
