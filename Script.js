@@ -133,6 +133,10 @@ function renderSlide(productImg,productEl,productInfo) {
 }
   function renderRight(productImg,productEl,productInfo) {
     if ( numberProduct1, numberProduct2, numberProduct3, numberProduct4 < 7) {
+                console.log(numberProduct1)
+         console.log(numberProduct2)
+                console.log(numberProduct3)
+                console.log(numberProduct4)
         numberProduct1 += 1
         numberProduct2 += 1
         numberProduct3 += 1
